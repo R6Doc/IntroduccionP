@@ -1,0 +1,52 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio (Con flexbox)</title>
+    <style>
+    .flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+    }
+
+    .flex-container > div {
+    background-color: DodgerBlue;
+
+    color: white;
+    margin: 1px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    }
+
+
+    </style>
+    </head>
+    <body>
+    <a href="https://github.com/R6Doc" target="_blank">
+        <h1 style="text-align: center;">Michael Galindez</h1>
+    </a>
+    <div class="flex-container">
+        <div style="flex-grow: 4">40%</div>
+        <div style="flex-grow: 6">60%</div>
+    </div>
+    <div class="flex-container">
+        <div style="flex-grow: 10"  >100%</div>
+    </div>
+    <div class="flex-container">
+        <div style="flex-grow: 2; height: 500px;">20%</div>
+        <div style="flex-grow: 5">50%</div>
+        <div style="flex-grow: 3">30%</div>
+    </div>
+    <div class="flex-container">
+        <div style="flex-grow: 5">50%</div>
+        <div style="flex-grow: 5">50%</div>
+    </div>
+
+    </body>
+    </html>
+
+
